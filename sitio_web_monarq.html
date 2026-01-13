@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MONARQ | Estudio de Arquitectura</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', Arial, sans-serif;
+      color: #1a1a1a;
+      background-color: #ffffff;
+    }
+    header {
+      height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://images.unsplash.com/photo-1503387762-592deb58ef4e');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      padding: 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+    .btn {
+      padding: 14px 32px;
+      border: 1px solid #fff;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      background: #fff;
+      color: #000;
+    }
+    section {
+      padding: 80px 10%;
+    }
+    h2 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .about p {
+      max-width: 800px;
+      line-height: 1.8;
+      color: #444;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .service {
+      border: 1px solid #e5e5e5;
+      padding: 30px;
+    }
+    .service h3 {
+      margin-bottom: 10px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .project {
+      background: #f5f5f5;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+    }
+    .process {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+    }
+    .step {
+      border-left: 3px solid #000;
+      padding-left: 15px;
+    }
+    .contact {
+      background: #111;
+      color: #fff;
+      text-align: center;
+    }
+    .contact a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      background: #000;
+      color: #aaa;
+    }
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      section {
+        padding: 60px 6%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>MONARQ</h1>
+    <p>Diseño arquitectónico que transforma espacios desde la idea hasta su desarrollo.</p>
+    <a href="#contacto" class="btn">Solicitar asesoría</a>
+  </div>
+</header>
+
+<section class="about">
+  <h2>Quiénes somos</h2>
+  <p>
+    MONARQ es un estudio enfocado en el diseño arquitectónico funcional y estético. Nuestro objetivo es acompañar cada proyecto con una visión clara, cuidando cada detalle desde la conceptualización hasta su representación visual y técnica.
+  </p>
+</section>
+
+<section>
+  <h2>Servicios</h2>
+  <div class="services">
+    <div class="service"><h3>Diseño arquitectónico</h3><p>Propuestas funcionales adaptadas a cada cliente.</p></div>
+    <div class="service"><h3>Diseño de interiores</h3><p>Espacios equilibrados, modernos y eficientes.</p></div>
+    <div class="service"><h3>Renders arquitectónicos</h3><p>Visualización realista para una mejor toma de decisiones.</p></div>
+    <div class="service"><h3>Planos constructivos</h3><p>Documentación clara para ejecución de obra.</p></div>
+    <div class="service"><h3>Supervisión</h3><p>Acompañamiento y control del desarrollo del proyecto.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Proyectos</h2>
+  <div class="projects">
+    <div class="project">Proyecto Residencial</div>
+    <div class="project">Diseño Interior</div>
+    <div class="project">Propuesta Conceptual</div>
+  </div>
+</section>
+
+<section>
+  <h2>Proceso de trabajo</h2>
+  <div class="process">
+    <div class="step"><strong>01.</strong> Análisis de necesidades</div>
+    <div class="step"><strong>02.</strong> Propuesta de diseño</div>
+    <div class="step"><strong>03.</strong> Desarrollo técnico</div>
+    <div class="step"><strong>04.</strong> Visualización y ajustes</div>
+    <div class="step"><strong>05.</strong> Acompañamiento</div>
+  </div>
+</section>
+
+<section id="contacto" class="contact">
+  <h2>Contacto</h2>
+  <p>Solicitá información o cotización directamente.</p>
+  <p>📱 <a href="https://wa.me/50200000000">WhatsApp</a></p>
+  <p>📧 contacto@monarq.com</p>
+</section>
+
+<footer>
+  © 2026 MONARQ · Estudio de Arquitectura
+</footer>
+
+</body>
+</html>
